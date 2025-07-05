@@ -17,6 +17,7 @@ body{
     display: flex;
     justify-content: space-around;
     align-items: center;
+    margin-bottom: 50px;
 }
 
 .nav-icon{
@@ -171,10 +172,16 @@ body{
 
 /* Contact Form */
 
+.contact-form{
+    margin-bottom: 50px;
+}
+
+
 .contact-head-tag{
     font-size: 35px;
-    margin: 28.5px;
+    margin: 35px;
     text-align: center;
+    
 }
 
 .contact-form{
@@ -184,6 +191,21 @@ body{
     text-align: left;
     display: flex;
     justify-content: center;
+    text-decoration: none;
+    border: 2px solid #03fcc6;
+    box-shadow: 2px 4px 8px 12px #03fcc6;
+    margin-bottom: 35px;
+}
+
+.contact-head-tag:hover{
+    cursor: pointer;
+    color: yellow;
+}
+
+.contact-form:hover
+{
+    cursor: pointer;
+    box-shadow: 4px 8px 12px 16px #03fcc6; 
 }
 
 .input-form{
@@ -238,6 +260,7 @@ body{
     font-size: 25px;
     margin: 25px;
     padding: 20px;
+    margin-top: 35px;
 }
 
 .footer-list{
