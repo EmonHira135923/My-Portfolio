@@ -1,0 +1,114 @@
+*{
+    margin:0px;
+    padding: 0px;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: black;
+    color: white;
+}
+
+/* nav var */
+
+body{
+    padding: 8px;
+}
+
+.nav-div{
+    height: 100px;
+    width: 100%;
+    font-size: 30px;
+    text-align: center;
+}
+
+.nav-list{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap:20px;
+    margin: 20px;
+}
+
+a{
+    text-decoration: none;
+}
+a:hover{
+    color:yellow;
+    cursor:pointer;
+}
+
+
+/* Home Section */
+
+.header-div{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 30px;
+}
+
+.hero-heading{
+    font-weight: 500px;
+}
+
+.Hero-Img{
+    display: flex;
+    justify-content: center;
+}
+.tag{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 10px 14px yellow;
+    margin-bottom: 25px;
+}
+.tag:hover{
+    box-shadow: 4px 4px 14px 18px yellow;
+    cursor: pointer;   
+}
+.hero-btn{
+    padding: 5px;
+    margin: 10px;
+}
+
+
+
+
+
+
+/* Footer Full  */
+
+.container-footer{
+    height: 100px;
+    width: 95%;
+    font-size: 25px;
+    margin: 25px;
+    padding: 20px;
+}
+
+.footer-list{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap:20px;
+    margin: 5px;
+}
+
+.footer-text{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.fav-icon{
+    color : darkblue;
+    margin-right: 8.5px;
+}
+
+.fav-icon:hover{
+    color: yellow;
+    cursor: pointer;
+}
+
+.fa-brands:hover{
+    color: darkslateblue;
+    cursor:pointer;
+}
