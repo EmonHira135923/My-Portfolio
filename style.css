@@ -166,8 +166,66 @@ body{
 
 
 
+/* About Me */
 
 
+/* Contact Form */
+
+.contact-head-tag{
+    font-size: 35px;
+    margin: 28.5px;
+    text-align: center;
+}
+
+.contact-form{
+    margin: 25px;
+    padding: 25px;
+    gap:20px;
+    text-align: left;
+    display: flex;
+    justify-content: center;
+}
+
+.input-form{
+    font-size: 18px;
+    margin: 25px;
+    gap:20px;
+    padding: 35px;
+    border:2px solid #03fcc6;
+    background-color: black;
+    color: white;
+}
+
+.msg-form{
+    padding: 100px;
+    font-size: 15.5px;
+    margin-right: 35px;
+}
+
+
+
+.btn-submit{
+    margin: 25px;
+    gap:20px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+.send-btn{
+    font-size: 20px;
+    padding: 20px;
+    border:2px solid #03fcc6;
+    background-color: #03fcc6;
+    border-radius: 75%;
+    color: black;
+    box-shadow: 2px 4px 8px 12px #03fcc6;
+}
+
+.send-btn:hover{
+    cursor: pointer;
+    box-shadow: 4px 6px 10px 14px #03fcc6;
+    transform: matrix(2.2s);
+}
 
 
 
