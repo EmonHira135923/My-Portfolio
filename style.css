@@ -7,10 +7,10 @@
     text-decoration: none;
 }
 
-/* nav var */
+/* nav var start */
 
 body{
-    padding: 8px;
+    padding: 10px;
 }
 
 .nav-div{
@@ -77,21 +77,22 @@ body{
     cursor: pointer;
 }
 
+/* nav var end */
 
-/* Home Section */
+/* Home Section start */
 
 
 .container-header{
-    height: 70vh;
-    width:100%;
-
+    height: 600px;
+    width: 100%;
+    margin-left: 20px;
 }
 
 .header-div{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    font-size: 30px;
+    font-size: 28px;
 }
 
 .hero-heading{
@@ -99,9 +100,10 @@ body{
     color: #03fcc6;
 }
 .hero-details{
-    font-size: 21.5px;
+    font-size: 18px;
     margin-top: 15px;
     margin-bottom: 10px;
+    margin-right: 20px;
     color: #bff542;
 }
 
@@ -114,7 +116,7 @@ body{
     height: 300px;
     border-radius: 50%;
     box-shadow: 2px 2px 10px 14px #03fcc6;
-    margin-bottom: 25px;
+    margin:30px;
 }
 .tag:hover{
     box-shadow: 6px 6px 26px 30px #03fcc6;
@@ -164,13 +166,141 @@ body{
 
 /* Home End */
 
+/* My Project start */
+
+.my-project-head{
+    text-align: center;
+    font-size: 45px;
+    font-weight: bold;
+}
+
+.my-project-head:hover{
+    cursor: pointer;
+    color: yellow;
+}
+
+.every-project{
+    font-size: 25px;
+    text-align: start;
+    display: flex;
+    justify-content: center;
+    margin-top: 35px;
+    margin-right: 55px;
+    height: 550px;
+    width: 100%;
+}
+
+/* My project End */
+
+
+/* About Me start */
+
+.Container-myself{
+    height: 550px;
+    width: 100%;
+    margin: 25px;
+}
+
+.About-Me{
+    font-size: 45px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    font-weight: bold;
+}
+
+.About-Me:hover{
+    cursor: pointer;
+    color: yellow;
+}
+
+.myself-div{
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+    padding: 20px;
+    gap: 35px;
+}
+
+
+.myskill-div{
+    border: 2px solid #03fcc6;
+    height: 350px;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    box-shadow: 1px 2px 6px 10px #03fcc6;
+}
+
+.myskill-div:hover{
+    cursor: pointer;
+    box-shadow: 3px 5px 10px 14px #03fcc6;
+}
+
+.my-education:hover{
+    cursor: pointer;
+    box-shadow: 3px 5px 10px 14px #03fcc6;
+}
+
+.dl-skill{
+    text-align: start;
+    margin: 25px;
+    padding: 20px;
+    font-size: 20px;
+}
+
+.dt-skill{
+    gap: 20px;
+    font-size: 25px;
+    font-weight: bold;
+    color: #bff542;
+}
+
+.dd-skill{
+    gap: 20px;
+    margin-top: 10px;
+}
+
+kbd{
+    background-color: #03fcc6;
+    color: black;
+}
+
+.my-education{
+    border: 2px solid #03fcc6;
+    height: 350px;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.education-head{
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 45px;
+    text-align: center;
+    color: #03fcc6;
+}
+
+.education-p{
+    font-size: 20px;
+    margin-top: 15px;
+    gap: 15px;
+    text-align: center;
+    color: #bff542;
+}
+
+
+/* about me end */
 
 
 
-/* About Me */
 
 
-/* Contact Form */
+/* Contact Form start */
 
 .contact-form{
     margin-bottom: 50px;
@@ -178,7 +308,7 @@ body{
 
 
 .contact-head-tag{
-    font-size: 35px;
+    font-size: 45px;
     margin: 35px;
     text-align: center;
     
@@ -246,13 +376,13 @@ body{
 .send-btn:hover{
     cursor: pointer;
     box-shadow: 4px 6px 10px 14px #03fcc6;
-    transform: matrix(2.2s);
+    transform: scale(1.1s)
 }
 
+/* contact me end */
 
 
-
-/* Footer Full  */
+/* Footer start  */
 
 .container-footer{
     height: 100px;
@@ -291,3 +421,5 @@ body{
     color: darkslateblue;
     cursor:pointer;
 }
+
+/* footer end */
