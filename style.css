@@ -186,9 +186,78 @@ body{
     justify-content: center;
     margin-top: 35px;
     margin-right: 55px;
-    height: 550px;
+    margin-bottom: 70px;
+    height: 700px;
     width: 100%;
+    gap: 30px;
+    border-radius: 10px;
 }
+
+
+.first-img{
+    height: 350px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+
+}
+
+.myproject-details{
+    text-align: center;
+    border: 2px solid #03fcc6;
+    width: 25%;
+    justify-content: center;
+    box-shadow: 1px 2px 6px 10px #03fcc6;
+    gap: 55px;
+    border-radius: 10px;
+}
+
+.myproject-details:hover{
+    cursor: pointer;
+    box-shadow: 2px 4px 8px 12px #03fcc6;
+}
+
+
+.project-heading{
+    font-size: 25px;
+    font-weight: bolder;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    color: #03fcc6;
+}
+
+.project-pg{
+    font-size: 16.5px;
+    font-weight: normal;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    color: #bff542;
+}
+
+.btn-project{
+    font-size: 15px;
+    margin-top: 25px;
+}
+
+.anchor-tag{
+    text-decoration: none;
+    background-color: #bff542;
+    color: black;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.anchor-tag:hover{
+    cursor: pointer;
+    box-shadow: 2px 4px 8px 12px #03fcc6;
+    outline: #03fcc6;
+    background-color: #03fcc6;
+    color: white;
+}
+
+
 
 /* My project End */
 
